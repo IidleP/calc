@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\ANTLRErrorListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\ANTLRErrorStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\ANTLRFileStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\ANTLRInputStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\BailErrorStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\BaseErrorListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\BufferedTokenStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\CharStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\CommonToken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\CommonTokenFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\CommonTokenStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\ConsoleErrorListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\DefaultErrorStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\DiagnosticErrorListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\FailedPredicateException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\InputMismatchException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\IntStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\InterpreterRuleContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\Lexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\LexerInterpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\LexerNoViableAltException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\ListTokenSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\NoViableAltException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\ParserInterpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\ParserRuleContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\ProxyErrorListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\RecognitionException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\Recognizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\RuleContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\RuleContextWithAltNum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\RuntimeMetaData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\Token.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\TokenSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\TokenStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\TokenStreamRewriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\UnbufferedCharStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\UnbufferedTokenStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\Vocabulary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\WritableToken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ATN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ATNConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ATNConfigSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ATNDeserializationOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ATNDeserializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ATNSimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ATNState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ATNStateType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ActionTransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\AmbiguityInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ArrayPredictionContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\AtomTransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ContextSensitivityInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\DecisionEventInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\DecisionInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\DecisionState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\EpsilonTransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ErrorInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LL1Analyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerATNConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerATNSimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerActionExecutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerChannelAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerCustomAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerIndexedCustomAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerModeAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerMoreAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerPopModeAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerPushModeAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerSkipAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LexerTypeAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\LookaheadEventInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\NotSetTransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\OrderedATNConfigSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ParseInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ParserATNSimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\PrecedencePredicateTransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\PredicateEvalInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\PredicateTransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\PredictionContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\PredictionContextCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\PredictionContextMergeCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\PredictionMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\ProfilingATNSimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\RangeTransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\RuleTransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\SemanticContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\SetTransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\SingletonPredictionContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\StarLoopbackState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\Transition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\TransitionType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\atn\WildcardTransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\dfa\DFA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\dfa\DFASerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\dfa\DFAState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\dfa\LexerDFASerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\internal\Synchronization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\misc\InterpreterDataReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\misc\Interval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\misc\IntervalSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\misc\MurmurHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\misc\Predicate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\support\Any.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\support\Arrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\support\CPPUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\support\StringUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\support\Utf8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\ErrorNodeImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\IterativeParseTreeWalker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\ParseTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\ParseTreeListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\ParseTreeVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\ParseTreeWalker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\TerminalNodeImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\Trees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\pattern\Chunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\pattern\ParseTreeMatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\pattern\ParseTreePattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\pattern\ParseTreePatternMatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\pattern\RuleTagToken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\pattern\TagChunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\pattern\TextChunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\pattern\TokenTagToken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\xpath\XPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\xpath\XPathElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\xpath\XPathLexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\xpath\XPathLexerErrorListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\xpath\XPathRuleAnywhereElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\xpath\XPathRuleElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\xpath\XPathTokenAnywhereElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\xpath\XPathTokenElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\xpath\XPathWildcardAnywhereElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\xpath\XPathWildcardElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\repos\calc\calc\ANTLR\antlr4-cpp-runtime-4.13.2-source\runtime\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F19485F-553A-3AE2-9C84-C35B620DD0EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
