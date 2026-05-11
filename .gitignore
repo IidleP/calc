@@ -41,8 +41,6 @@ CPackSourceConfig.cmake
 *.pdb
 *.ilk
 *.exp
-*.lib
-*.dll
 *.log
 *.tlog
 *.lastbuildstate
