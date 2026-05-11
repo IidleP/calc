@@ -1,0 +1,62 @@
+#pragma once          
+#include "Visitor.h"  
+#include <string>     
+
+class Expr {
+public:
+    virtual ~Expr() = default;
+    virtual int accept(Visitor* v) = 0;
+};
+
+
+
+class Number : public Expr {
+    int val; 
+public:
+    Number(int _val); 
+    int getVal() const; 
+    virtual int accept(Visitor* v) override;
+};
+
+
+
+
+class Variable : public Expr {
+    std::string name;
+public:
+    Variable(const std::string& _name);
+    std::string getName() const; 
+    virtual int accept(Visitor* v) override;
+};
+
+
+
+class BiOperation : public Expr {
+    char op;     
+    Expr* l;
+    Expr* r;
+public:
+    BiOperation(char _op, Expr* _l, Expr* _r);
+    Expr* left() const; 
+    Expr* right() const; 
+    char getOp() const;  
+    virtual int accept(Visitor* v) override;
+};
+
+
+
+class Assign : public Expr {
+    std::string varName; 
+    Expr* value;         
+public:
+    Assign(const std::string& name, Expr* val);
+    std::string getVarName() const;
+    Expr* getValue() const;
+    virtual int accept(Visitor* v) override;
+};
+
+
+Expr* num(int val);
+Expr* var(const std::string& name);
+Expr* binOp(char op, Expr* left, Expr* right);
+Expr* assign(const std::string& name, Expr* val);
