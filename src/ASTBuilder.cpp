@@ -5,6 +5,7 @@ ASTBuilder::ASTBuilder()
     tempOp(0), tempVarName(""), tempValue(nullptr) {
 }
 
+// ID = expr
 antlrcpp::Any ASTBuilder::visitProg(CalcParser::ProgContext* ctx) {
     allAssigns.clear();
     for (auto* assignCtx : ctx->assign()) {
@@ -13,6 +14,7 @@ antlrcpp::Any ASTBuilder::visitProg(CalcParser::ProgContext* ctx) {
     return nullptr;
 }
 
+// ID = expr
 antlrcpp::Any ASTBuilder::visitAssign(CalcParser::AssignContext* ctx) {
     tempVarName = ctx->ID()->getText(); 
     visit(ctx->expr());                 
@@ -23,6 +25,7 @@ antlrcpp::Any ASTBuilder::visitAssign(CalcParser::AssignContext* ctx) {
     return nullptr;
 }
 
+// expr ('*'|'/') expr
 antlrcpp::Any ASTBuilder::visitMulDiv(CalcParser::MulDivContext* ctx) {
     visit(ctx->expr(0));      
     tempLeft = result;        
@@ -33,6 +36,7 @@ antlrcpp::Any ASTBuilder::visitMulDiv(CalcParser::MulDivContext* ctx) {
     return nullptr;
 }
 
+// expr('+' | '-') expr
 antlrcpp::Any ASTBuilder::visitAddSub(CalcParser::AddSubContext* ctx) {
     visit(ctx->expr(0)); 
     tempLeft = result;
@@ -43,13 +47,14 @@ antlrcpp::Any ASTBuilder::visitAddSub(CalcParser::AddSubContext* ctx) {
     return nullptr;
 }
 
-
+// Число
 antlrcpp::Any ASTBuilder::visitInt(CalcParser::IntContext* ctx) {
     int value = std::stoi(ctx->INT()->getText());
     result = num(value);
     return nullptr;
 }
 
+// Переменная
 antlrcpp::Any ASTBuilder::visitVar(CalcParser::VarContext* ctx) {
     std::string name = ctx->ID()->getText();
     result = var(name); 

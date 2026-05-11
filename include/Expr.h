@@ -2,14 +2,16 @@
 #include "Visitor.h"  
 #include <string>     
 
+
+// Узлы
 class Expr {
 public:
     virtual ~Expr() = default;
-    virtual int accept(Visitor* v) = 0;
+    virtual int accept(Visitor* v) = 0; 
 };
 
 
-
+// Число
 class Number : public Expr {
     int val; 
 public:
@@ -20,7 +22,7 @@ public:
 
 
 
-
+// Переменная
 class Variable : public Expr {
     std::string name;
 public:
@@ -30,7 +32,7 @@ public:
 };
 
 
-
+// Операции
 class BiOperation : public Expr {
     char op;     
     Expr* l;
@@ -44,7 +46,7 @@ public:
 };
 
 
-
+// Присваивание
 class Assign : public Expr {
     std::string varName; 
     Expr* value;         
@@ -56,6 +58,8 @@ public:
 };
 
 
+
+// Создание
 Expr* num(int val);
 Expr* var(const std::string& name);
 Expr* binOp(char op, Expr* left, Expr* right);

@@ -41,19 +41,20 @@ int EvalVisitor::visitBiOperation(BiOperation* op) {
     case '-': return left - right;
     case '*': return left * right;
     case '/':
-        if (right == 0) throw std::runtime_error("Division by zero!");
+        if (right == 0) throw - 1;
         return left / right;
-    default: throw std::runtime_error("Unknown operator!");
+    default: 
+        throw -1;
     }
 }
 
 int EvalVisitor::visitVariable(Variable* var) {
     std::string name = var->getName();
-    auto it = variables.find(name);
-    if (it == variables.end()) {
-        throw std::runtime_error("Variable not initialized: " + name);
+    auto v = variables.find(name);
+    if (v == variables.end()) {
+        throw - 1;
     }
-    return it->second;
+    return v->second;
 }
 
 int EvalVisitor::visitAssign(Assign* assign) {

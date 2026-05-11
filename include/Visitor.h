@@ -10,7 +10,7 @@ class Variable;
 class Assign;
 
 
-
+// Визитор, обработчики узлов
 class Visitor {
 public:
     virtual ~Visitor() = default;
@@ -21,7 +21,7 @@ public:
 };
 
 
-
+// Вывод
 class PrintVisitor : public Visitor {
 public:
     virtual int visitNumber(Number* num) override;
@@ -30,7 +30,7 @@ public:
     virtual int visitAssign(Assign* assign) override;
 };
 
-
+// Вычисление и хранение map
 class EvalVisitor : public Visitor {
 private:
     std::map<std::string, int> variables;
