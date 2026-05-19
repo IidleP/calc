@@ -38,6 +38,7 @@
     <ClInclude Include="..\generated\CalcParser.h" />
     <ClInclude Include="..\generated\CalcVisitor.h" />
     <ClInclude Include="..\include\ASTBuilder.h" />
+    <ClInclude Include="..\include\AVLTree.h" />
     <ClInclude Include="..\include\Expr.h" />
     <ClInclude Include="..\include\Visitor.h" />
   </ItemGroup>

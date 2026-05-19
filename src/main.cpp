@@ -39,15 +39,15 @@ int main() {
 
 
         builder.visitProg(tree);
-        auto assigns = builder.getAllAssignments();
+        Expr* root = builder.getResult();
 
 
-        for (Expr* e : assigns) {
+        if (root) {
             std::cout << "  ";
-            e->accept(&printer);
+            root->accept(&printer);
             std::cout << "\n";
             try {
-                e->accept(&calculator);
+                root->accept(&calculator);
             }
             catch (const std::exception& ex) {
                 std::cout << "Error: " << ex.what() << "\n";

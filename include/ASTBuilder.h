@@ -22,8 +22,6 @@ public:
     Expr* getResult() const { return result; }
     void clearResult() { result = nullptr; }
 
-    std::vector<Expr*> getAllAssignments() const { return allAssigns; }
-
 private:
     Expr* result = nullptr;          
     Expr* tempLeft = nullptr;        
@@ -31,5 +29,4 @@ private:
     char tempOp = 0;                 
     std::string tempVarName;         
     Expr* tempValue = nullptr;       
-    std::vector<Expr*> allAssigns;   
 };

@@ -7,10 +7,17 @@ ASTBuilder::ASTBuilder()
 
 // ID = expr
 antlrcpp::Any ASTBuilder::visitProg(CalcParser::ProgContext* ctx) {
-    allAssigns.clear();
+    Expr* tree = nullptr;
     for (auto* assignCtx : ctx->assign()) {
         visit(assignCtx);
+        if (tree == nullptr) {
+            tree = result;
+        }
+        else {
+            tree = semicolon(tree, result);
+        }
     }
+    result = tree;
     return nullptr;
 }
 
@@ -21,7 +28,7 @@ antlrcpp::Any ASTBuilder::visitAssign(CalcParser::AssignContext* ctx) {
     tempValue = result;
 
     result = assign(tempVarName, tempValue);
-    allAssigns.push_back(result);
+
     return nullptr;
 }
 

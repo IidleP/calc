@@ -58,9 +58,22 @@ public:
 };
 
 
+// Точка с запятой
+class Semicolon : public Expr {
+    Expr* left;
+    Expr* right;
+public:
+    Semicolon(Expr* _left, Expr* _right);
+    Expr* getLeft() const;
+    Expr* getRight() const;
+    virtual int accept(Visitor* v) override;
+};
+
+
 
 // Создание
 Expr* num(int val);
 Expr* var(const std::string& name);
 Expr* binOp(char op, Expr* left, Expr* right);
 Expr* assign(const std::string& name, Expr* val);
+Expr* semicolon(Expr* left, Expr* right);

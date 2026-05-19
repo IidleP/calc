@@ -27,6 +27,12 @@ int PrintVisitor::visitAssign(Assign* assign) {
     return 0;
 }
 
+int PrintVisitor::visitSemicolon(Semicolon* sem) {
+    sem->getLeft()->accept(this);
+    std::cout << " ; ";
+    sem->getRight()->accept(this);
+    return 0;
+}
 
 int EvalVisitor::visitNumber(Number* num) {
     return num->getVal();
@@ -49,24 +55,24 @@ int EvalVisitor::visitBiOperation(BiOperation* op) {
 }
 
 int EvalVisitor::visitVariable(Variable* var) {
-    std::string name = var->getName();
-    auto v = variables.find(name);
-    if (v == variables.end()) {
-        throw - 1;
-    }
-    return v->second;
+    int* val = variables.find(var->getName());
+    if (!val) throw - 1;
+    return *val;
 }
 
 int EvalVisitor::visitAssign(Assign* assign) {
     int val = assign->getValue()->accept(this);
-    variables[assign->getVarName()] = val;
+    variables.insert(assign->getVarName(), val);
     return val;
 }
 
+int EvalVisitor::visitSemicolon(Semicolon* sem) {
+    sem->getLeft()->accept(this);
+    return sem->getRight()->accept(this);
+}
+
 void EvalVisitor::printVariables() const {
-    for (auto& pair : variables) {
-        std::cout << pair.first << " = " << pair.second << std::endl;
-    }
+    variables.printInOrder();
 }
 
 void EvalVisitor::clearVariables() {

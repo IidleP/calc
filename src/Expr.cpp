@@ -27,9 +27,15 @@ std::string Assign::getVarName() const { return varName; }
 Expr* Assign::getValue() const { return value; }
 int Assign::accept(Visitor* v) { return v->visitAssign(this); }
 
+Semicolon::Semicolon(Expr* _left, Expr* _right) : left(_left), right(_right) {}
+Expr* Semicolon::getLeft() const { return left; }
+Expr* Semicolon::getRight() const { return right; }
+int Semicolon::accept(Visitor* v) { return v->visitSemicolon(this); }
+
 
 
 Expr* num(int val) { return new Number(val); }
 Expr* var(const std::string& name) { return new Variable(name); }
 Expr* binOp(char op, Expr* left, Expr* right) { return new BiOperation(op, left, right); }
 Expr* assign(const std::string& name, Expr* val) { return new Assign(name, val); }
+Expr* semicolon(Expr* left, Expr* right) { return new Semicolon(left, right); }

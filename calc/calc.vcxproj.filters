@@ -77,6 +77,9 @@
     <ClInclude Include="..\generated\CalcVisitor.h">
       <Filter>generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\AVLTree.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Calc.g4">
