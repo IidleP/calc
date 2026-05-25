@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/repos/calc/calc/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "D:/repos/calc/calc/_deps/googletest-subbuild/CMakeFiles/5e61d64e2ba4d11974509f7c9f4b5214/googletest-populate.rule"
+		},
+		{
+			"file" : "D:/repos/calc/calc/_deps/googletest-subbuild/CMakeFiles/74ac04caae47d6761980707054f902d6/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "D:/repos/calc/calc/_deps/googletest-subbuild/CMakeFiles/b95fc0968180c44b1cd3ea0a73b69ad6/googletest-populate-build.rule"
+		},
+		{
+			"file" : "D:/repos/calc/calc/_deps/googletest-subbuild/CMakeFiles/b95fc0968180c44b1cd3ea0a73b69ad6/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "D:/repos/calc/calc/_deps/googletest-subbuild/CMakeFiles/b95fc0968180c44b1cd3ea0a73b69ad6/googletest-populate-download.rule"
+		},
+		{
+			"file" : "D:/repos/calc/calc/_deps/googletest-subbuild/CMakeFiles/b95fc0968180c44b1cd3ea0a73b69ad6/googletest-populate-install.rule"
+		},
+		{
+			"file" : "D:/repos/calc/calc/_deps/googletest-subbuild/CMakeFiles/b95fc0968180c44b1cd3ea0a73b69ad6/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/repos/calc/calc/_deps/googletest-subbuild/CMakeFiles/b95fc0968180c44b1cd3ea0a73b69ad6/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "D:/repos/calc/calc/_deps/googletest-subbuild/CMakeFiles/b95fc0968180c44b1cd3ea0a73b69ad6/googletest-populate-test.rule"
+		},
+		{
+			"file" : "D:/repos/calc/calc/_deps/googletest-subbuild/CMakeFiles/b95fc0968180c44b1cd3ea0a73b69ad6/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

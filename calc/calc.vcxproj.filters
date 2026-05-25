@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="generated">
+      <UniqueIdentifier>{5fd3f237-19db-43b0-b7f2-9d436aa4ca54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Expr.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generated\CalcBaseListener.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generated\CalcBaseVisitor.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generated\CalcLexer.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generated\CalcListener.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generated\CalcParser.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generated\CalcVisitor.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ASTBuilder.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Visitor.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Expr.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Visitor.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ASTBuilder.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CalcBaseListener.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CalcBaseVisitor.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CalcLexer.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CalcListener.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CalcParser.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generated\CalcVisitor.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Calc.g4">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="..\generated\CalcLexer.interp">
+      <Filter>generated</Filter>
+    </None>
+    <None Include="..\generated\CalcLexer.tokens">
+      <Filter>generated</Filter>
+    </None>
+  </ItemGroup>
+</Project>

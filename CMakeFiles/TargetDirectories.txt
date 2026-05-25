@@ -1,0 +1,9 @@
+D:/repos/calc/calc/CMakeFiles/PACKAGE.dir
+D:/repos/calc/calc/CMakeFiles/RUN_TESTS.dir
+D:/repos/calc/calc/CMakeFiles/INSTALL.dir
+D:/repos/calc/calc/CMakeFiles/ALL_BUILD.dir
+D:/repos/calc/calc/CMakeFiles/ZERO_CHECK.dir
+D:/repos/calc/calc/runtime/CMakeFiles/antlr4_shared.dir
+D:/repos/calc/calc/runtime/CMakeFiles/PACKAGE.dir
+D:/repos/calc/calc/runtime/CMakeFiles/RUN_TESTS.dir
+D:/repos/calc/calc/runtime/CMakeFiles/INSTALL.dir
